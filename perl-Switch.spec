@@ -8,6 +8,7 @@ Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DCONWAY/%{pdir}-%{version}.tar.gz
+# Source0-md5:	2ca0bf0e9fdb6b90bddc37bba3b701e3
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.005
 BuildArch:	noarch
