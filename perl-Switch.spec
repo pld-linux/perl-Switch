@@ -33,7 +33,7 @@ z ogólnym wzorcem istniej±cych procedur kontroli przep³ywu Perla.
 %build
 %{__perl} Makefile.PL
 %{__make}
-#%{__make} test
+#%%{__make} test
 
 %install
 rm -rf $RPM_BUILD_ROOT
