@@ -1,14 +1,18 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Switch
 Summary:	Switch -- A switch statement for Perl
 Summary(pl):	Switch -- instrukcja switch dla Perla
 Name:		perl-%{pdir}
-Version:	2.09
-Release:	2
+Version:	2.10
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/authors/id/DCONWAY/%{pdir}-%{version}.tar.gz
-# Source0-md5:	2ca0bf0e9fdb6b90bddc37bba3b701e3
+Source0:	http://www.cpan.org/authors/id/R/RG/RGARCIA/%{pdir}-%{version}.tar.gz
+# Source0-md5:	29650eb2782955446c70ee4376f61066
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.005
 BuildArch:	noarch
@@ -35,7 +39,7 @@ z ogólnym wzorcem istniej±cych procedur kontroli przep³ywu Perla.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-#%%{__make} test
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
