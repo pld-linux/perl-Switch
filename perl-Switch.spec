@@ -15,12 +15,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Switch.pm provides the syntax and semantics for an explicit case mechanism
-for Perl.  The syntax is minimal, introducing only the keywords C<switch>
-and C<case> and conforming to the general pattern of existing Perl
-control structures.  The semantics are particularly rich, allowing any
-one (or more) of nearly 30 forms of matching to be used when comparing
-a switch value with its various cases.
+Switch.pm provides the syntax and semantics for an explicit case
+mechanism for Perl.  The syntax is minimal, introducing only the
+keywords "switch" and "case" and conforming to the general pattern of
+existing Perl control structures.  The semantics are particularly
+rich, allowing any one (or more) of nearly 30 forms of matching to be
+used when comparing a switch value with its various cases.
 
 %description -l pl
 Switch.pm udostêpnia sk³adniê i semantykê dla jawnego mechanizmu
