@@ -4,8 +4,8 @@
 
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Switch
-Summary:	Switch -- A switch statement for Perl
-Summary(pl):	Switch -- instrukcja switch dla Perla
+Summary:	Switch - a switch statement for Perl
+Summary(pl):	Switch - instrukcja switch dla Perla
 Name:		perl-%{pdir}
 Version:	2.10
 Release:	1
