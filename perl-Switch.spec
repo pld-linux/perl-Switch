@@ -4,7 +4,7 @@ Summary:	Switch -- A switch statement for Perl
 Summary(pl):	Switch -- instrukcja switch dla Perla
 Name:		perl-%{pdir}
 Version:	2.09
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DCONWAY/%{pdir}-%{version}.tar.gz
