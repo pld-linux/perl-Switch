@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Switch
+%define		pdir	Switch
 Summary:	Switch - a switch statement for Perl
 Summary(pl):	Switch - instrukcja switch dla Perla
 Name:		perl-Switch
