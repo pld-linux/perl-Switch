@@ -4,11 +4,11 @@ Summary:	Switch -- A switch statement for Perl
 Summary(pl):	Switch -- instrukcja switch dla Perla
 Name:		perl-%{pdir}
 Version:	2.09
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DCONWAY/%{pdir}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.005
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -31,7 +31,8 @@ z ogólnym wzorcem istniej±cych procedur kontroli przep³ywu Perla.
 %setup -q -n %{pdir}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 #%%{__make} test
 
@@ -47,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/*.pm
+%{perl_vendorlib}/*.pm
 %{_mandir}/man3/*
