@@ -6,7 +6,7 @@
 %define	pdir	Switch
 Summary:	Switch - a switch statement for Perl
 Summary(pl):	Switch - instrukcja switch dla Perla
-Name:		perl-%{pdir}
+Name:		perl-Switch
 Version:	2.10
 Release:	1
 # same as perl
