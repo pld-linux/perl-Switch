@@ -1,4 +1,3 @@
-# $Revision: 1.1 $
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Switch
 Summary:	Switch -- A switch statement for Perl
@@ -8,7 +7,7 @@ Version:	2.09
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/authors/id/DCONWAY/Switch-2.09.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/authors/id/DCONWAY/%{pdir}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005
 BuildArch:	noarch
