@@ -9,7 +9,7 @@ License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/DCONWAY/%{pdir}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl >= 5.005
+BuildRequires:	perl-devel >= 5.005
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
