@@ -33,7 +33,7 @@ z ogólnym wzorcem istniej±cych procedur kontroli przep³ywu Perla.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 
