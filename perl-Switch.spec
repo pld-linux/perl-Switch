@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Switch
 Summary:	Switch - a switch statement for Perl
-Summary(pl):	Switch - instrukcja switch dla Perla
+Summary(pl.UTF-8):   Switch - instrukcja switch dla Perla
 Name:		perl-Switch
 Version:	2.10
 Release:	1
@@ -27,11 +27,11 @@ existing Perl control structures.  The semantics are particularly
 rich, allowing any one (or more) of nearly 30 forms of matching to be
 used when comparing a switch value with its various cases.
 
-%description -l pl
-Switch.pm udostêpnia sk³adniê i semantykê dla jawnego mechanizmu
-rozpatrywania przypadku dla Perla.  Sk³adnia jest minimalna, wprowadza
-jedynie s³owa kluczowe ,,switch'' i ,,case'' i zachowuj±c zgodno¶æ
-z ogólnym wzorcem istniej±cych procedur kontroli przep³ywu Perla.
+%description -l pl.UTF-8
+Switch.pm udostÄ™pnia skÅ‚adniÄ™ i semantykÄ™ dla jawnego mechanizmu
+rozpatrywania przypadku dla Perla.  SkÅ‚adnia jest minimalna, wprowadza
+jedynie sÅ‚owa kluczowe ,,switch'' i ,,case'' i zachowujÄ…c zgodnoÅ›Ä‡
+z ogÃ³lnym wzorcem istniejÄ…cych procedur kontroli przepÅ‚ywu Perla.
 
 %prep
 %setup -q -n %{pdir}-%{version}
