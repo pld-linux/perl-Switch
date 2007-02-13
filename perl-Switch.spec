@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Switch
 Summary:	Switch - a switch statement for Perl
-Summary(pl.UTF-8):   Switch - instrukcja switch dla Perla
+Summary(pl.UTF-8):	Switch - instrukcja switch dla Perla
 Name:		perl-Switch
 Version:	2.10
 Release:	1
