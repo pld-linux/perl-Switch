@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RG/RGARCIA/%{pdir}-%{version}.tar.gz
 # Source0-md5:	c3d6f62ef197093e9b1bfbb6dbedf987
+URL:		http://search.cpan.org/dist/Switch/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
@@ -55,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/*.pm
+%{perl_vendorlib}/Switch.pm
 %{_mandir}/man3/*
