@@ -7,13 +7,13 @@
 Summary:	Switch - a switch statement for Perl
 Summary(pl.UTF-8):	Switch - instrukcja switch dla Perla
 Name:		perl-Switch
-Version:	2.13
+Version:	2.14
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RG/RGARCIA/%{pdir}-%{version}.tar.gz
-# Source0-md5:	c3d6f62ef197093e9b1bfbb6dbedf987
+# Source0-md5:	f4812ec9a20a48874677adff061a55dc
 URL:		http://search.cpan.org/dist/Switch/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
